@@ -86,6 +86,13 @@ python3 scripts/generar_pdf_matriz.py
 - Apify da $5 USD de crédito gratis al mes, sin tarjeta — de sobra para correr este análisis varias veces al mes.
 - Cada corrida de scraping muestra el costo estimado y pide tu aprobación explícita antes de ejecutarse.
 
+## Troubleshooting
+
+- **Una respuesta del MCP de Apify se corta o supera los 10.000 tokens:** reabrí la sesión con más margen de salida:
+  ```bash
+  MAX_MCP_OUTPUT_TOKENS=50000 claude
+  ```
+
 ## Notas
 
 - Nunca se inventan métricas ni transcripciones — lo que no viene del scraper se marca `s/d`.
