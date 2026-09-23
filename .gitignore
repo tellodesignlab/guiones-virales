@@ -1,0 +1,29 @@
+# Configuración real del negocio (contiene datos específicos: referentes, tono, CTA).
+# No se sube — cada usuario la crea copiando CLAUDE.example.md como CLAUDE.md.
+CLAUDE.md
+
+# Datos y salidas generadas al correr el sistema (específicas de cada negocio y
+# de los guiones ya escritos). Se mantiene la estructura de carpetas con .gitkeep.
+fuentes/*
+!fuentes/.gitkeep
+
+transcripciones/*
+!transcripciones/.gitkeep
+
+matriz/*
+!matriz/.gitkeep
+
+guiones/*
+!guiones/.gitkeep
+
+estructuras/*
+!estructuras/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
